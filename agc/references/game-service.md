@@ -329,6 +329,16 @@ Game Controller Kit 支持游戏适配控制器外设（当前仅支持手柄）
 
 ---
 
+## 26.0.1 Beta1 新增（2026-11-10）
+
+> 26.0.1 为 26.0.0 的增量版本，仅供尝鲜；Beta 版 DevEco Studio 开发的应用不能上架应用市场。
+
+- **实况窗后台保活本地调试**：游戏场景感知的实况窗后台保活能力支持本地调试，便于开发阶段验证保活效果
+- **游戏触控区域**：游戏场景感知新增设置游戏触控区域的能力，提供 ArkTS（`gamePerformance` 模块 `GameTouchArea`）与 C/C++ 两套接口
+- **设备支持扩展**：基础游戏服务新增支持 Car 设备
+
+---
+
 ## 官方参考
 
 - **Game Service Kit 概述**：https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/game-service-overview-V5

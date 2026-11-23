@@ -8,7 +8,7 @@ description: |
 # HarmonyOS 技能库
 
 > **版本**：HarmonyOS 26.0.0 / API 26（Release，2026-08-29；底座 OpenHarmony 7.0，商用版 HarmonyOS 7.0.0.105；DevEco Studio Patch 26.0.0.865，2026-10-31（上一 Patch 26.0.0.851，2026-09-23）；鸿蒙电脑版 Beta2 26.0.0.220，2026-11-06（Beta1 26.0.0.201 公测首发，2026-10-08）；Windows/macOS Beta2 26.0.0.621，2026-07-28）；HarmonyOS 26.0.1 / API 26.0.1（Beta1，2026-11-10；DevEco Studio 26.0.1.290；SDK 26.0.1 Beta1 基于 OpenHarmony SDK 26.0.1.120；增量尝鲜版本，Beta 版工具开发的应用不能上架应用市场）；HarmonyOS 6.1.1 / API 24（Release，2026-05-26；Patch 6.1.1.290，2026-06-30）
-> **更新时间**：2026-11-16
+> **更新时间**：2026-11-23
 > **官方文档**：https://developer.huawei.com/consumer/cn/doc/
 
 ---
@@ -277,6 +277,16 @@ HarmonyOS 开发套件 26.0.0 于 2026-08-29 正式 Release 发布，包含 Beta
 - **子技能同步**：dev/SKILL.md（版本表新增 26.0.1 行、版本说明、API 26.0.1 变更追踪）、system/SKILL.md（26.0.1 变更追踪 + 企业办公服务导航）、media/SKILL.md、ai-meta/SKILL.md、agc/SKILL.md 均新增 26.0.1 变更追踪章节；templates/references/deveco-templates.md 补充 DevEco Studio 26.0.1 Beta1 模板配套
 - **版本声明一致性检查**：根 SKILL.md 版本行/更新时间行已更新为 2026-11-16；8 个子技能「适用版本 / 版本说明」仍为「26.0.0 / API 26（Release）为最新基线、6.1.1 / API 24（Release）为存量兼容」，与官方口径一致（26.0.1 为 Beta 尝鲜，不作为基线）；未发现「生产环境推荐 API 24」等旧表述
 - **README.md 核对**：徽章与版本信息表已同步 26.0.1 Beta1；文档统计由 137 篇更新为 138 篇（system 51→52）
+
+### 更新记录（2026-11-23）
+
+- **版本检查**：官方版本列表仍为「最新版本(26.0.1)」，未发布 26.0.2 / 26.1.0 / 27.0.0；26.0.1 版本概览与 OS 新增和增强特性页更新时间均为 2026-11-13 18:44，26.0.0 版本概览与 OS 特性页更新时间均为 2026-11-11 10:53，配套关系（API 26.0.1 / DevEco Studio 26.0.1 Beta1 26.0.1.290 / SDK 26.0.1 Beta1 26.0.1.120）无变化
+- **OS 新增和增强特性核对**：26.0.1 Beta1 的 35 个 Kit 条目、26.0.0 Release 的 8 个 Kit 与「工具」条目逐项比对，官方表述与现有文档一致，无新增或变更
+- **官方首页 Kit 列表核对**：应用框架 / 系统 / 媒体 / 图形 / 应用服务 / AI 六领域 Kit 与 references 文件一一对应，无新增 Kit；Enterprise Foundation Kit（企业办公服务）与 Mechanic Kit 仍未在首页 Kit 列表展示，沿用「仅随版本特性发布、以指南页为准」的收录方式
+- **references 内容补全**：补齐 4 个文件缺失的 26.0.1 能力——`system/references/map-kit.md`（3D 地球球体中线比例 `mapCommon.SphereParams`）、`agc/references/game-service.md`（实况窗后台保活本地调试、游戏触控区域 `GameTouchArea`、基础游戏服务支持 Car 设备）、`media/references/arkgraphics-3d.md`（Graphics Accelerate Kit 资源包后台下载开关查询与设置）、`system/references/security-kits.md`（User Authentication Kit 用户识别能力）
+- **子技能同步**：system/SKILL.md、agc/SKILL.md、media/SKILL.md 的「API 26.0.1 Beta1 变更追踪」表格补齐 Map Kit、Game Service Kit、Graphics Accelerate Kit 三行
+- **版本声明一致性检查**：根 SKILL.md 版本行与更新时间行、8 个子技能 SKILL.md 版本声明、references 适用版本头部均为「26.0.0 / API 26（Release）为最新基线、6.1.1 / API 24（Release）为存量兼容」；修正 `dev/references/publish.md` 头部将 API 23 / 22 表述为当前「稳定」的口径，标注为历史版本；未发现「生产环境推荐 API 24」残留
+- **README.md 核对**：版本信息表、徽章（API 24/26、HarmonyOS 26）与实际基准一致；文档统计 138 篇（dev 35、system 52、media 11、ai-meta 6、design 14、agc 8、samples 8、templates 4）与实际文件数一致
 
 ---
 

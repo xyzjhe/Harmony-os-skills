@@ -141,6 +141,12 @@ Graphics Accelerate Kit 是集成了先进图形渲染加速和资源管理优�
 
 详情请参考官方文档。
 
+### 26.0.1 Beta1 新增（2026-11-10）
+
+> 26.0.1 是 26.0.0 的增量版本，仅供尝鲜；Beta 版 DevEco Studio 开发的应用不能上架应用市场。
+
+- **资源包下载开关**：游戏资源加速服务新增 `AssetDownloadManager.isSupportDownloadSwitchSetting`（查询是否支持设置资源包后台下载开关）、`queryDownloadSwitchEnabled` 与 `setDownloadSwitchEnabled`（分别查询、设置当前资源包后台下载开关状态）
+
 ### 官方链接
 
 - [Graphics Accelerate Kit 简介](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/graphics-accelerate-introduction)

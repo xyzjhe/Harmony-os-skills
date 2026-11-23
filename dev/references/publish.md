@@ -1,6 +1,6 @@
 # 打包与上架
 
-> **适用版本**：HarmonyOS 5.0.2+（API 14）及以上，HarmonyOS 6.1 = API 23 稳定，6.0 = API 22 稳定，26.0.0 = API 26 Release。
+> **适用版本**：HarmonyOS 5.0.2+（API 14）及以上；当前最新稳定为 HarmonyOS 26.0.0 = API 26（Release），存量兼容 HarmonyOS 6.1.1 = API 24（Release）；HarmonyOS 6.1 = API 23、6.0 = API 22 为历史版本。
 
 ## 上架流程概览
 

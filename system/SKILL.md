@@ -149,6 +149,7 @@ description: |
 | Health Service Kit | Lite Wearable 新增笼式网球/滑雪/户外跑步/户外骑行/自由训练/普拉提运动类型；新增运动数据交互 C API；Wearable 新增运动类型与训练负荷数据 |
 | Input Kit | 新增鼠标光标与光标类型外设管理；KeyCode 新增云台设备按键定义 |
 | MDM Kit | 新增打印机 IP 白名单、精确定时器、锁屏弱密码库、待机资源豁免、卡片发布到桌面 |
+| Map Kit | 新增支持为 3D 地球设置球体中线距离屏幕的比例值（`mapCommon.SphereParams`） |
 | User Authentication Kit | 新增用户识别能力（判断当前使用者是否与已登录系统用户匹配） |
 | Wear Engine Kit | 新增穿戴表盘能力（表盘配置下发与预览） |
 | Weather Service Kit | 新增朝霞晚霞天气数据 |

@@ -219,6 +219,12 @@ async startLocationTracking(controller: map.MapComponentController): Promise<voi
 }
 ```
 
+## 26.0.1 Beta1 新增（2026-11-10）
+
+> 26.0.1 为 26.0.0 的增量版本，仅供尝鲜；知识库基线仍为 HarmonyOS 26.0.0 / API 26（Release）。
+
+- **3D 地球中线比例**：新增支持为 3D 地球设置球体中线距离屏幕的比例值，通过 `mapCommon.SphereParams` 配置，用于调整 3D 地球在屏幕中的视觉占比
+
 ## 官方参考
 
 - [Map Kit 开发指南](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/map-kit-overview-0000001820880889)

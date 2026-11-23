@@ -87,6 +87,7 @@ description: |
 | ArkGraphics 2D | 文字绘制 C API 新增支持字体回退的文本对象创建接口（`OH_Drawing_TextBlobCreateFromTextWithFallback` 等） |
 | Spatial Recon Kit | 新增端云重建鉴权签名（为待重建 mp4 派生云侧验签凭证）、3DGS 大场景分档渲染（`TiledGSRenderPreference`）、3DGS 漫游碰撞检测（`CameraCollisionDetector`） |
 | XEngine Kit | 新增支持 Car 设备 |
+| Graphics Accelerate Kit | 游戏资源加速新增资源包后台下载开关的查询与设置（`isSupportDownloadSwitchSetting`、`queryDownloadSwitchEnabled`、`setDownloadSwitchEnabled`） |
 
 ---
 

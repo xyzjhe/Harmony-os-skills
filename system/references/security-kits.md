@@ -196,6 +196,12 @@ User Authentication Kit 提供基于用户在设备本地注册的锁屏口令�
 - 不允许三方应用在后台发起身份认证请求
 - 支持模拟器
 
+### 26.0.1 Beta1 新增（2026-11-10）
+
+> 26.0.1 为 26.0.0 的增量版本，仅供尝鲜；Beta 版 DevEco Studio 开发的应用不能上架应用市场。
+
+- **用户识别**：新增用户识别能力，应用可查询最新识别结果或订阅识别结果变化，用于判断当前使用者是否与已登录的系统用户匹配
+
 ### 官方链接
 
 - [User Authentication Kit 简介](https://developer.huawei.com/consumer/cn/doc/harmonyos-guides/user-authentication-overview)
